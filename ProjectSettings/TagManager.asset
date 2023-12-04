@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Floor
+  - Obstacle
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Groud
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 196210965
+    locked: 0
+  - name: Cloud
+    uniqueID: 1041316409
+    locked: 0
+  - name: Player
+    uniqueID: 583010669
+    locked: 0
+  - name: Enemy
+    uniqueID: 969863883
+    locked: 0
+  - name: Floor
+    uniqueID: 943340123
+    locked: 0
+  - name: Details
+    uniqueID: 1093114001
+    locked: 0

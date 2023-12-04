@@ -1,0 +1,1130 @@
+fileFormatVersion: 2
+guid: 6635500bd0548184e9b3851dd9e6e927
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 160
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: character_zombie_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 512
+        width: 68
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ea3a63c91dfc347a45eea6e0225713
+      internalID: -2128120203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 512
+        width: 82
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67aff52b0696574d8e57f3746955113
+      internalID: 407140906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 513
+        width: 92
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7aebf63657edff41a22ab2b498385c1
+      internalID: 742052080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 512
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5e8eeb94e05c944992732134673f72
+      internalID: 1710442801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 514
+        width: 95
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be57bd1037dbc124c86c413c5e8b71b0
+      internalID: -1819083643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 512
+        width: 70
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29f099880e63c24ab5470a356b5c572
+      internalID: 949067747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 512
+        width: 70
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56019c1356df8248912f702b21e0a76
+      internalID: 1818275225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 512
+        width: 79
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d90ec9b2b2545c428a6e5d57df60f7e
+      internalID: 656747415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 515
+        width: 79
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77578299dfd56514cb6732d993e4ba4f
+      internalID: -1821758365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 384
+        width: 68
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839bd3db51411d84c9883883f3d28828
+      internalID: 595136590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 384
+        width: 87
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2202f8bef7664774d9dbc94d9c33623a
+      internalID: -1948071259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 384
+        width: 86
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b126fe4ca5955d41835197413d438b8
+      internalID: 1069114340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 384
+        width: 85
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f38aff124361d3488817346505f5854
+      internalID: 1916175199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 384
+        width: 87
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97132e7f74f032849bc5a328bd33fda7
+      internalID: 120958140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 384
+        width: 91
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8900c51db62f740408128470198946ae
+      internalID: 1820163162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 384
+        width: 56
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dff6e1200567ad44927c4103d91f09a
+      internalID: 1515270439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 384
+        width: 73
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b87a6cc8abc044a8f7b3ad57a0824d
+      internalID: 2008878684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 386
+        width: 71
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844dabe116edcb9418a0e1951dfadb28
+      internalID: -961069707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 256
+        width: 80
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1eb9003d6ccd14c8cd2179c254c0bc
+      internalID: -1596562357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 259
+        width: 86
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296b8f785ded64b41b3e44a2d5f1e213
+      internalID: -1016705593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 258
+        width: 74
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc6ff7bc517e8149a1e1d40e85f00e7
+      internalID: 1728289582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 256
+        width: 59
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94da34aa0ac1ba147b0526cf1866f038
+      internalID: 2052039919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 256
+        width: 71
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a37d3dce7bbb164b855f56c8dbb9e9f
+      internalID: 1096190362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 256
+        width: 54
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0505fcc6f56654a4baa894f18a88d029
+      internalID: 1465750688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 256
+        width: 75
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042bb41661046c242ad7a1a9146d0694
+      internalID: -1719055475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 257
+        width: 84
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb0c33c0eed49743afc8bc9fb002e62
+      internalID: 850803054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 262
+        width: 96
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1196be434a1654a80a73946d8bfe82
+      internalID: 1167278034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 128
+        width: 86
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c1311791da7704e9755c944ff47d8b
+      internalID: -1531094409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 128
+        width: 81
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1375d4b18e1d9e428081d9e37d4c0ab
+      internalID: -1437968121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 128
+        width: 93
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8982ef6fd77d9b14a87b30d78534e24a
+      internalID: 1086281815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 128
+        width: 65
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580e1f9f650efd549ae88c0cba5f2323
+      internalID: 1096178609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 128
+        width: 87
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc974b878b3bd847b1ce7325a4b44d3
+      internalID: 1927629830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 128
+        width: 60
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331ead8420fcaa04fb0a8499abb90fc1
+      internalID: -2014008852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 133
+        width: 94
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3291a2fe19c5947a2e463afed5baab
+      internalID: -1493174829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 128
+        width: 93
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfe3645a91aa1e418d86d264d1b8e63
+      internalID: -1632465281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 136
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a92b983e63199649939b7727a66aa76
+      internalID: 3932488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1
+        width: 75
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9b1311f5f39f048b7b77a3d09809d8
+      internalID: 1179607106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 67
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4cba6ca14a15445a2c1e5ea03a7931
+      internalID: 802205146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 0
+        width: 60
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec178ef023aec542bb947783b065830
+      internalID: 138810361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 0
+        width: 65
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b120d6f2de09bd45b32e7f7a94a05d3
+      internalID: -1315796412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 0
+        width: 75
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ae23bd3ee9f8d4b94b73a8184e960d
+      internalID: -1937190267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 0
+        width: 68
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a276ec7eb2db9442889cec2514ab584
+      internalID: -364348391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 0
+        width: 60
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50e202b53853e443a678444f27fb60e
+      internalID: -883631017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 0
+        width: 66
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a7e4824da0afb40a54093d54e489b6
+      internalID: 1712222801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_zombie_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 21
+        width: 95
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30904b9303ef8994da32202277ba6f14
+      internalID: -2031495495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      character_zombie_sheet_0: -2128120203
+      character_zombie_sheet_1: 407140906
+      character_zombie_sheet_10: -1948071259
+      character_zombie_sheet_11: 1069114340
+      character_zombie_sheet_12: 1916175199
+      character_zombie_sheet_13: 120958140
+      character_zombie_sheet_14: 1820163162
+      character_zombie_sheet_15: 1515270439
+      character_zombie_sheet_16: 2008878684
+      character_zombie_sheet_17: -961069707
+      character_zombie_sheet_18: -1596562357
+      character_zombie_sheet_19: -1016705593
+      character_zombie_sheet_2: 742052080
+      character_zombie_sheet_20: 1728289582
+      character_zombie_sheet_21: 2052039919
+      character_zombie_sheet_22: 1096190362
+      character_zombie_sheet_23: 1465750688
+      character_zombie_sheet_24: -1719055475
+      character_zombie_sheet_25: 850803054
+      character_zombie_sheet_26: 1167278034
+      character_zombie_sheet_27: -1531094409
+      character_zombie_sheet_28: -1437968121
+      character_zombie_sheet_29: 1086281815
+      character_zombie_sheet_3: 1710442801
+      character_zombie_sheet_30: 1096178609
+      character_zombie_sheet_31: 1927629830
+      character_zombie_sheet_32: -2014008852
+      character_zombie_sheet_33: -1493174829
+      character_zombie_sheet_34: -1632465281
+      character_zombie_sheet_35: 3932488
+      character_zombie_sheet_36: 1179607106
+      character_zombie_sheet_37: 802205146
+      character_zombie_sheet_38: 138810361
+      character_zombie_sheet_39: -1315796412
+      character_zombie_sheet_4: -1819083643
+      character_zombie_sheet_40: -1937190267
+      character_zombie_sheet_41: -364348391
+      character_zombie_sheet_42: -883631017
+      character_zombie_sheet_43: 1712222801
+      character_zombie_sheet_44: -2031495495
+      character_zombie_sheet_5: 949067747
+      character_zombie_sheet_6: 1818275225
+      character_zombie_sheet_7: 656747415
+      character_zombie_sheet_8: -1821758365
+      character_zombie_sheet_9: 595136590
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
