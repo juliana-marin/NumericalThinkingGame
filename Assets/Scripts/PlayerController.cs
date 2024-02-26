@@ -46,6 +46,7 @@ public class PlayerController : MonoBehaviour
         input.x = Input.GetAxisRaw("Horizontal");
         input.y = Input.GetAxisRaw("Vertical");
 
+
         horizontalMovement = Input.GetAxisRaw("Horizontal")* speedMovement;
         animator.SetFloat("Horizontal", Mathf.Abs(horizontalMovement));
 
@@ -95,9 +96,10 @@ public class PlayerController : MonoBehaviour
 
     private void Mover(float mover, bool saltar)
     {
+        
         Vector3 velocidadObjetivo = new Vector2(mover, rigidbody2D.velocity.y);
         rigidbody2D.velocity = Vector3.SmoothDamp(rigidbody2D.velocity, velocidadObjetivo, ref speed, motionSmoothing);
-
+        
         if (mover > 0 && !lookingRight)
         {
             Girar();

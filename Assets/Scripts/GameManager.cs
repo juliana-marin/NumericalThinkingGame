@@ -7,22 +7,24 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public Renderer background;
-    
     public PlayerController player;
     public ChangeLevel changeLevel;
     public int curProblem;  
     public MathsOperations[] problems;
     public LengthUnits[] unitsLength;
-    public static GameManager instance;
     public string[] words;
-    
+    public Objects[] objects;
+    public static GameManager instance;
     private int correctPanel;
+    private float timeToChangeLevel= 4.0f;
+
     public void Awake()
     {
         instance = this;
     }
 
-    public void Start(){
+    public void Start()
+    {
         SetProblem(0);
     }
 
@@ -37,11 +39,14 @@ public class GameManager : MonoBehaviour
     
         if (panel == correctPanel)
             CorrectAnswer();
-        else
+        else{
             IncorrectAnswer();
+        }
+            
     }
 
-    public void getGameObject(){
+    public void getGameObject()
+    {
         if(problems.Length != 0 ){
             correctPanel = problems[curProblem].getCorrectPanel();
             
@@ -52,46 +57,64 @@ public class GameManager : MonoBehaviour
         
     }
     
+    public void SetProblem(int problem)
+    {
+        curProblem = problem;
+        if(problems.Length != 0)
+        {
+            UI.instance.SetProblemText(problems[curProblem]);
+        }
+        if(unitsLength.Length !=0)
+        {
+            UI.instance.SetLengthUnitsText(unitsLength[curProblem], words);
+        }
+        if(objects.Length !=0)
+        {
+            UI.instance.SetContElementsText(objects[curProblem]);
+        }
+    }
     public void CorrectAnswer()
     {
-        UI.instance.SetEndText(true,"correcto!");
-       //si es el ultimo problema llama a win, sino inserte mas problemas
-        if(problems.Length - 1 == curProblem|| unitsLength.Length - 1 == curProblem)
-            Win();
-        else
+        UI.instance.SetEndText(true,"Muy Bien!!");
+
+        if(problems.Length - 1 == curProblem|| unitsLength.Length - 1 == curProblem || objects.Length -1  == curProblem)
+        {
+            Win("Ganaste!!!");
+        }else{
             SetProblem(curProblem + 1);
+        }
     }
 
     public void IncorrectAnswer()
     {
-        UI.instance.SetEndText(false,"Error!");
+        UI.instance.SetEndText(false,"Intentalo de Nuevo");
         //Lose();
-
     }
-
-    public void SetProblem(int problem)
-    {
-        curProblem = problem;
-        if(problems.Length != 0){
-            UI.instance.SetProblemText(problems[curProblem]);
-        }
-        if(unitsLength.Length !=0){
-            UI.instance.SetLengthUnitsText(unitsLength[curProblem], words);
-        }
-        
-    }
-
-    public void Win()
+    public void Win(string mjs)
     {   
-        changeLevel.nextLevel = true;
-        changeLevel.idLevel = SceneManager.GetActiveScene().buildIndex;
-        Debug.Log("changeLevel.idLevel--------" + changeLevel.idLevel);
-        Debug.Log("changeLevel.nextLevel--------" + changeLevel.idLevel);
-        UI.instance.SetEndText(true, "Ganaste!");
+        Invoke("ChangeLevel", timeToChangeLevel);
+        UI.instance.SetEndText(true, mjs);
     }
 
     public void Lose()
     {
         UI.instance.SetEndText(false, "Fin del Juego!");
     }
+    public void ChangeLevel()
+    {
+        changeLevel.nextLevel = true;
+        changeLevel.idLevel = SceneManager.GetActiveScene().buildIndex;
+    }
+    public void ConteoNumeros()
+    {
+        Invoke("ChangeLevel", timeToChangeLevel);
+        /*if(objects.Length -1  == curProblem){
+            changeLevel.nextLevel = true;
+            changeLevel.idLevel = SceneManager.GetActiveScene().buildIndex;
+        }else{
+            
+            this.SetProblem(curProblem +1);
+        }*/
+    }
+
 }

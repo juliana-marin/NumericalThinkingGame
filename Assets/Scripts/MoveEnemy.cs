@@ -45,5 +45,13 @@ public class MoveEnemy : MonoBehaviour
 
     }
 
+    private void OnCollisionEnter2D(Collision2D collision2D){
+        if(collision2D.collider.CompareTag("Player")){
+            MovimientoCamara.Instance.MoverCamara(2,2, 0.2f);
+            
+        }
+    }
+
+
 }
 
