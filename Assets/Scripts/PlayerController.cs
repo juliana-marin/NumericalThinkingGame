@@ -3,11 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {    
     private Rigidbody2D rigidbody2D;
     private Vector2 input;
+    public EntradasMovimiento entradasMovimiento;
 
     [Header("Movement")]
     private float horizontalMovement = 0f;
@@ -33,12 +35,27 @@ public class PlayerController : MonoBehaviour
     private float gravedadInicial;
     private bool escalando;
 
-    void Start()
+    public void Awake()
+    {
+        entradasMovimiento = new EntradasMovimiento();
+    }
+    public void OnEnable()
+    {
+        entradasMovimiento.Enable();
+    }
+
+    public void OnDisable()
+    {
+        entradasMovimiento.Disable();
+    }
+
+    public void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         boxCollider2D = GetComponent<BoxCollider2D>();
         gravedadInicial = rigidbody2D.gravityScale;
+        entradasMovimiento.Movimiento.Salto.performed += contexto => Jump(contexto);
     }
 
     private void Update()
@@ -46,8 +63,7 @@ public class PlayerController : MonoBehaviour
         input.x = Input.GetAxisRaw("Horizontal");
         input.y = Input.GetAxisRaw("Vertical");
 
-
-        horizontalMovement = Input.GetAxisRaw("Horizontal")* speedMovement;
+        horizontalMovement = entradasMovimiento.Movimiento.Horizontal.ReadValue<float>() * speedMovement;
         animator.SetFloat("Horizontal", Mathf.Abs(horizontalMovement));
 
         if(Mathf.Abs(rigidbody2D.velocity.y) > Mathf.Epsilon)
@@ -58,11 +74,11 @@ public class PlayerController : MonoBehaviour
             animator.SetFloat("VelocidadY", 0);
         }
 
-        if(Input.GetButtonDown("Jump")){
-            betterJump = true;
-        }
     }
-
+    public void Jump(InputAction.CallbackContext contexto)
+    {
+        betterJump = true;
+    }
       private void FixedUpdate()
     {
         isGround = Physics2D.OverlapBox(groundController.position, dimension, 0f, checkGroud);
@@ -96,7 +112,6 @@ public class PlayerController : MonoBehaviour
 
     private void Mover(float mover, bool saltar)
     {
-        
         Vector3 velocidadObjetivo = new Vector2(mover, rigidbody2D.velocity.y);
         rigidbody2D.velocity = Vector3.SmoothDamp(rigidbody2D.velocity, velocidadObjetivo, ref speed, motionSmoothing);
         
