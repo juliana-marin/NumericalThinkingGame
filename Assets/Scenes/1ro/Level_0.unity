@@ -1155,8 +1155,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 501.78, y: -276.85}
-  m_SizeDelta: {x: 159.1, y: 95.78}
+  m_AnchoredPosition: {x: 479.56, y: -236.35}
+  m_SizeDelta: {x: 122.39, y: 111.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1250964334
 MonoBehaviour:
@@ -1178,7 +1178,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7dc767cf1f092424ea299ebf24ec1cd8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1bc8ffef820c9f9409daae5b03bee9c6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1290,8 +1290,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -429, y: -267}
-  m_SizeDelta: {x: 60.6, y: 95.78}
+  m_AnchoredPosition: {x: -409.61, y: -235}
+  m_SizeDelta: {x: 77.8, y: 95.78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1492654388
 MonoBehaviour:
@@ -1313,7 +1313,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b77a872175fe48a40a7abe5ec5a8839c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3cdd0920268815840922302c9f3b9cc7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1784,8 +1784,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -547, y: -267}
-  m_SizeDelta: {x: 60.6, y: 95.78}
+  m_AnchoredPosition: {x: -529.25, y: -235}
+  m_SizeDelta: {x: 78.105, y: 95.78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1675438739
 MonoBehaviour:
@@ -1820,7 +1820,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: aabf59e6d09b7db47863ff98ccf9aef4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 58600c529ee58064ab59084ba840d09c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3703,8 +3703,8 @@ SceneRoots:
   m_Roots:
   - {fileID: 579942203}
   - {fileID: 760436582}
-  - {fileID: 1563929603}
   - {fileID: 737339929}
+  - {fileID: 1563929603}
   - {fileID: 1671188428}
   - {fileID: 124238888}
   - {fileID: 35396968}
