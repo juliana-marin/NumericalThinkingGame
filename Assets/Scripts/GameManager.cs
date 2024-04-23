@@ -6,9 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public GameObject nivelCompletado;
     public Renderer background;
     public PlayerController player;
-    public ChangeLevel changeLevel;
     public int curProblem;  
     public MathsOperations[] problems;
     public LengthUnits[] unitsLength;
@@ -16,7 +16,6 @@ public class GameManager : MonoBehaviour
     public Objects[] objects;
     public static GameManager instance;
     private int correctPanel;
-    private float timeToChangeLevel= 4.0f;
 
     public void Awake()
     {
@@ -79,42 +78,27 @@ public class GameManager : MonoBehaviour
 
         if(problems.Length - 1 == curProblem|| unitsLength.Length - 1 == curProblem || objects.Length -1  == curProblem)
         {
-            Win("Ganaste!!!");
+            Win();
         }else{
             SetProblem(curProblem + 1);
         }
     }
+    public void Win()
+    {   
+        nivelCompletado.gameObject.SetActive(true);
+    }
+
 
     public void IncorrectAnswer()
     {
         UI.instance.SetEndText(false,"Intentalo de Nuevo");
         //Lose();
     }
-    public void Win(string mjs)
-    {   
-        Invoke("ChangeLevel", timeToChangeLevel);
-        UI.instance.SetEndText(true, mjs);
-    }
+
 
     public void Lose()
     {
         UI.instance.SetEndText(false, "Fin del Juego!");
-    }
-    public void ChangeLevel()
-    {
-        changeLevel.nextLevel = true;
-        changeLevel.idLevel = SceneManager.GetActiveScene().buildIndex;
-    }
-    public void ConteoNumeros()
-    {
-        Invoke("ChangeLevel", timeToChangeLevel);
-        /*if(objects.Length -1  == curProblem){
-            changeLevel.nextLevel = true;
-            changeLevel.idLevel = SceneManager.GetActiveScene().buildIndex;
-        }else{
-            
-            this.SetProblem(curProblem +1);
-        }*/
     }
 
 }

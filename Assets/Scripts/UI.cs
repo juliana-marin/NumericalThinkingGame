@@ -130,7 +130,7 @@ public class UI : MonoBehaviour
             cont=0;
             contadorNumeros.text = "";
             SetEndText(true,"Muy Bien!!");
-            GameManager.instance.ConteoNumeros();
+            GameManager.instance.Win();
         }
 
     }
@@ -142,7 +142,7 @@ public class UI : MonoBehaviour
         if(cont == resultadoSustraccion)
         {
             SetEndText(true,"Muy Bien!!");
-            GameManager.instance.ConteoNumeros();
+            GameManager.instance.Win();
         }else{
             cont--;
         }

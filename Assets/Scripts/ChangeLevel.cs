@@ -5,24 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class ChangeLevel : MonoBehaviour
 {
-    
-    
     public bool nextLevel;
     public int idLevel;
 
-    void Start()
-    {
-        
-    }
-    
-    // Update is called once per frame
-    void Update()
-    {
-        if (nextLevel)
-        {
-            levelUp();
-        }
-    
+    public void Update(){
+        if (nextLevel) levelUp();
     }
 
     public void levelUp(){
