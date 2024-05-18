@@ -35,4 +35,55 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/2do/Level_3.unity
     guid: 7e3a2b407014ceb48917f6ce248fd0a8
+  - enabled: 1
+    path: Assets/Scenes/Interfaz Usuario/SeleccionNivel_3.unity
+    guid: 8d86c63f21407d94b9d2a07970846cfd
+  - enabled: 1
+    path: Assets/Scenes/Interfaz Usuario/SeleccionNivel_5.unity
+    guid: a1eea538bbf210e4e9e33e535343b71c
+  - enabled: 1
+    path: Assets/Scenes/3ro/Scene Nave1.unity
+    guid: 152ec648623b6de48831106f52249b4c
+  - enabled: 1
+    path: Assets/Scenes/3ro/SceneDivision.unity
+    guid: 7416498fd7df35f4a9ba0659f46be091
+  - enabled: 1
+    path: Assets/Scenes/3ro/Fracciones.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/3ro/Figuras.unity
+    guid: bf8778df5bc5c544da7adde1bedf8ace
+  - enabled: 1
+    path: Assets/Scenes/5to/SumaDecimal.unity
+    guid: de6420b072ee5aa46929c8adc69f00e0
+  - enabled: 1
+    path: Assets/Scenes/5to/RestaDecimal.unity
+    guid: 249594326c6cb0847972962f86ae6e1c
+  - enabled: 1
+    path: Assets/Scenes/5to/SumaFracciones.unity
+    guid: d4cb164c4c163dd4b806755343dbd9ec
+  - enabled: 1
+    path: Assets/Scenes/5to/RestaFracciones.unity
+    guid: e85dfa20984c978409bc1caf549f1687
+  - enabled: 1
+    path: Assets/Scenes/Interfaz Usuario/GameOver.unity
+    guid: 7af913bc3d36e624c845cb9c92935e1b
+  - enabled: 1
+    path: Assets/Scenes/NivelCompleto/NivelCompletado.unity
+    guid: 52c707fe12205934197b9ae734d40cea
+  - enabled: 1
+    path: Assets/Scenes/NivelCompleto/NivelCompletado3_2.unity
+    guid: bcbfed94f7bb6ec4095d493d736e911f
+  - enabled: 1
+    path: Assets/Scenes/NivelCompleto/NivelCompletado3_3.unity
+    guid: 8f51261c21a4489418a115fb3f796c06
+  - enabled: 1
+    path: Assets/Scenes/NivelCompleto/NivelCompletado5_1.unity
+    guid: 45d62ad2c6b398d48a2347a52fce7b97
+  - enabled: 1
+    path: Assets/Scenes/NivelCompleto/NivelCompletado5_2.unity
+    guid: f328588be5d873f4288b8df855099377
+  - enabled: 1
+    path: Assets/Scenes/NivelCompleto/NivelCompletado5_3.unity
+    guid: ed595ea59296d3c4ba90a24978106415
   m_configObjects: {}
