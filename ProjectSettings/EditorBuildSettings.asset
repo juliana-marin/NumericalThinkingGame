@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Interfaz Usuario/MenuInicial.unity
+    guid: 81fb71ca545c1864090b67407074b66e
+  - enabled: 1
+    path: Assets/Scenes/Interfaz Usuario/SeleccionGrados.unity
+    guid: f8151a37c40f791479d0883c6a1c6f75
+  - enabled: 1
+    path: Assets/Scenes/Interfaz Usuario/SeleccionNivel_1.unity
+    guid: b1fc1ccfaa0304847870992dd08917b8
+  - enabled: 1
+    path: Assets/Scenes/Interfaz Usuario/SeleccionNivel_2.unity
+    guid: 9a2384e6e47df794f83d130becbd666e
+  - enabled: 1
+    path: Assets/Scenes/1ro/Level_0.unity
+    guid: a0691bde16780b64bbbee287da3b1f19
+  - enabled: 1
+    path: Assets/Scenes/1ro/Level_1.unity
+    guid: c98df069ee68b1642a4f229d7429734e
+  - enabled: 1
+    path: Assets/Scenes/2do/Level_0.unity
+    guid: 318bd1f2157b0bf46936f531a1afa170
+  - enabled: 1
+    path: Assets/Scenes/2do/Level_1.unity
+    guid: e2ed68d8fa2060645918e04bfbd19c40
+  - enabled: 1
+    path: Assets/Scenes/2do/Level_2.unity
+    guid: 6d1201c3191cb65458ed56d12183a192
+  - enabled: 1
+    path: Assets/Scenes/2do/Level_3.unity
+    guid: 7e3a2b407014ceb48917f6ce248fd0a8
+  - enabled: 1
+    path: Assets/Scenes/Interfaz Usuario/SeleccionNivel_3.unity
+    guid: 8d86c63f21407d94b9d2a07970846cfd
+  - enabled: 1
+    path: Assets/Scenes/Interfaz Usuario/SeleccionNivel_5.unity
+    guid: a1eea538bbf210e4e9e33e535343b71c
+  - enabled: 1
+    path: Assets/Scenes/3ro/Scene Nave1.unity
+    guid: 152ec648623b6de48831106f52249b4c
+  - enabled: 1
+    path: Assets/Scenes/3ro/SceneDivision.unity
+    guid: 7416498fd7df35f4a9ba0659f46be091
+  - enabled: 1
+    path: Assets/Scenes/3ro/Fracciones.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/3ro/Figuras.unity
+    guid: bf8778df5bc5c544da7adde1bedf8ace
+  - enabled: 1
+    path: Assets/Scenes/5to/SumaDecimal.unity
+    guid: de6420b072ee5aa46929c8adc69f00e0
+  - enabled: 1
+    path: Assets/Scenes/5to/RestaDecimal.unity
+    guid: 249594326c6cb0847972962f86ae6e1c
+  - enabled: 1
+    path: Assets/Scenes/5to/SumaFracciones.unity
+    guid: d4cb164c4c163dd4b806755343dbd9ec
+  - enabled: 1
+    path: Assets/Scenes/5to/RestaFracciones.unity
+    guid: e85dfa20984c978409bc1caf549f1687
+  - enabled: 1
+    path: Assets/Scenes/Interfaz Usuario/GameOver.unity
+    guid: 7af913bc3d36e624c845cb9c92935e1b
+  - enabled: 1
+    path: Assets/Scenes/NivelCompleto/NivelCompletado.unity
+    guid: 52c707fe12205934197b9ae734d40cea
+  - enabled: 1
+    path: Assets/Scenes/NivelCompleto/NivelCompletado3_2.unity
+    guid: bcbfed94f7bb6ec4095d493d736e911f
+  - enabled: 1
+    path: Assets/Scenes/NivelCompleto/NivelCompletado3_3.unity
+    guid: 8f51261c21a4489418a115fb3f796c06
+  - enabled: 1
+    path: Assets/Scenes/NivelCompleto/NivelCompletado5_1.unity
+    guid: 45d62ad2c6b398d48a2347a52fce7b97
+  - enabled: 1
+    path: Assets/Scenes/NivelCompleto/NivelCompletado5_2.unity
+    guid: f328588be5d873f4288b8df855099377
+  - enabled: 1
+    path: Assets/Scenes/NivelCompleto/NivelCompletado5_3.unity
+    guid: ed595ea59296d3c4ba90a24978106415
+  - enabled: 1
+    path: Assets/Scenes/Interfaz Usuario/Seleccion_Nivel4.unity
+    guid: f7ede61841c025a439be8ac4af787613
+  - enabled: 1
+    path: Assets/Scenes/4to/Sumas.unity
+    guid: 5af9f3f8e54691f48bc1d29719423621
+  - enabled: 1
+    path: Assets/Scenes/4to/Restas.unity
+    guid: 509c0e9f9f996d5488d10477dd87b7c6
+  - enabled: 1
+    path: Assets/Scenes/4to/Multiplicacion_Division.unity
+    guid: 66b029cfd236b6248b7c5b406ae0c783
+  - enabled: 1
+    path: Assets/Scenes/4to/Angulos.unity
+    guid: c0d6607856c7bd944b6dd5cea6cf5bbd
+  - enabled: 1
+    path: Assets/Scenes/4to/Perimetro_Area.unity
+    guid: dd45c3a6e25ee7a41b4e16dfa6f13f69
+  m_configObjects: {}

@@ -1,0 +1,76 @@
+{
+    "name": "EntradasMovimiento",
+    "maps": [
+        {
+            "name": "Movimiento",
+            "id": "a4b9861e-7ba2-4e92-8161-805b0b1506e9",
+            "actions": [
+                {
+                    "name": "Horizontal",
+                    "type": "PassThrough",
+                    "id": "8e1981ed-9c56-4540-8677-99c5265af931",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Salto",
+                    "type": "PassThrough",
+                    "id": "625983c3-6bae-4691-aeb6-6a66ff30c9ac",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Flechas",
+                    "id": "b40c4927-db6a-4d2a-a032-41ca2313fdde",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Horizontal",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "21f877ff-d1c6-4155-adb5-0dec70dcb428",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Horizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "5994d70b-7e45-41e7-ae93-d15cc1d2528f",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Horizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "91542f74-4a36-4d8c-830d-4015ce010ec8",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Salto",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
