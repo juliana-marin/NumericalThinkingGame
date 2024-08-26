@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rigidbody2D;
     private Vector2 input;
     public EntradasMovimiento entradasMovimiento;
+    public AudioClip sonidoSalto;
 
     [Header("Movement")]
     private float horizontalMovement = 0f;
@@ -128,6 +129,8 @@ public class PlayerController : MonoBehaviour
         {
             isGround = false;
             rigidbody2D.AddForce(new Vector2(0f, strengthJump));
+            AudioSource.PlayClipAtPoint(sonidoSalto, transform.position, 0.5f);
+
         }
     }
 

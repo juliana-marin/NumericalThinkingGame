@@ -5,7 +5,6 @@ using UnityEngine;
 public class MathsOperations 
 {  
     public Operations operators;
-    // Es el numero del indice de la respuesta correcta en la matriz de respuestas
     private int correctPanel;
     public bool activeUnits;
 

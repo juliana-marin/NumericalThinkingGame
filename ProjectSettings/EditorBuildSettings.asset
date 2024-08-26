@@ -18,22 +18,22 @@ EditorBuildSettings:
     path: Assets/Scenes/Interfaz Usuario/SeleccionNivel_2.unity
     guid: 9a2384e6e47df794f83d130becbd666e
   - enabled: 1
-    path: Assets/Scenes/1ro/Level_0.unity
+    path: Assets/Scenes/1ro/ConteoNumeros.unity
     guid: a0691bde16780b64bbbee287da3b1f19
   - enabled: 1
-    path: Assets/Scenes/1ro/Level_1.unity
+    path: Assets/Scenes/1ro/AdicionSustraccion.unity
     guid: c98df069ee68b1642a4f229d7429734e
   - enabled: 1
-    path: Assets/Scenes/2do/Level_0.unity
+    path: Assets/Scenes/2do/Suma.unity
     guid: 318bd1f2157b0bf46936f531a1afa170
   - enabled: 1
-    path: Assets/Scenes/2do/Level_1.unity
+    path: Assets/Scenes/2do/Resta.unity
     guid: e2ed68d8fa2060645918e04bfbd19c40
   - enabled: 1
-    path: Assets/Scenes/2do/Level_2.unity
+    path: Assets/Scenes/2do/UnidadLongitud.unity
     guid: 6d1201c3191cb65458ed56d12183a192
   - enabled: 1
-    path: Assets/Scenes/2do/Level_3.unity
+    path: Assets/Scenes/2do/SumaUnidadLongitud.unity
     guid: 7e3a2b407014ceb48917f6ce248fd0a8
   - enabled: 1
     path: Assets/Scenes/Interfaz Usuario/SeleccionNivel_3.unity
@@ -69,25 +69,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Interfaz Usuario/GameOver.unity
     guid: 7af913bc3d36e624c845cb9c92935e1b
   - enabled: 1
-    path: Assets/Scenes/NivelCompleto/NivelCompletado.unity
-    guid: 52c707fe12205934197b9ae734d40cea
-  - enabled: 1
-    path: Assets/Scenes/NivelCompleto/NivelCompletado3_2.unity
-    guid: bcbfed94f7bb6ec4095d493d736e911f
-  - enabled: 1
-    path: Assets/Scenes/NivelCompleto/NivelCompletado3_3.unity
-    guid: 8f51261c21a4489418a115fb3f796c06
-  - enabled: 1
-    path: Assets/Scenes/NivelCompleto/NivelCompletado5_1.unity
-    guid: 45d62ad2c6b398d48a2347a52fce7b97
-  - enabled: 1
-    path: Assets/Scenes/NivelCompleto/NivelCompletado5_2.unity
-    guid: f328588be5d873f4288b8df855099377
-  - enabled: 1
-    path: Assets/Scenes/NivelCompleto/NivelCompletado5_3.unity
-    guid: ed595ea59296d3c4ba90a24978106415
-  - enabled: 1
-    path: Assets/Scenes/Interfaz Usuario/Seleccion_Nivel4.unity
+    path: Assets/Scenes/Interfaz Usuario/SeleccionNivel_4.unity
     guid: f7ede61841c025a439be8ac4af787613
   - enabled: 1
     path: Assets/Scenes/4to/Sumas.unity

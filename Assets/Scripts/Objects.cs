@@ -27,6 +27,6 @@ public enum Items
 public enum Operacion
 {
     Ninguno,
-    Adición,
-    Sustracción
+    Adicion,
+    Sustraccion
 }

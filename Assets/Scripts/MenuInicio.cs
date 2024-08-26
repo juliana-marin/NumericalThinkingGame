@@ -12,7 +12,6 @@ public class MenuInicio : MonoBehaviour
     {
         instance = this;
     }
-    //El parametro indiceNivel indica el numero de indice de la escena a donde quiero ir
     public void Jugar(int indiceNivel)
     {
         SceneManager.LoadScene(indiceNivel);

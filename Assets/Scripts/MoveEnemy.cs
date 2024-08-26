@@ -12,6 +12,7 @@ public class MoveEnemy : MonoBehaviour
     public LayerMask layerFront;
     public float distanceDown;
     public float distanceFront;
+    public AudioClip sonidoEnemigo;
     public Transform controllerDown;
     public Transform controllerFront;
     public bool informationDown;
@@ -48,10 +49,12 @@ public class MoveEnemy : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision2D){
         if(collision2D.collider.CompareTag("Player")){
             MovimientoCamara.Instance.MoverCamara(2,2, 0.2f);
+            if(sonidoEnemigo != null){
+                AudioSource.PlayClipAtPoint(sonidoEnemigo, transform.position, 1.0f);
+            }
             
         }
     }
-
 
 }
 

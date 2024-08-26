@@ -5,7 +5,6 @@ using UnityEngine;
 public class LengthUnits
 { 
     public Units lengthUnits;
-    // Es el numero del indice de la respuesta correcta en la matriz de respuestas
     private int correctPanel;
     public void setCorrectPanel(int correctPanel){
         this.correctPanel = correctPanel;

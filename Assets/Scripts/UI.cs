@@ -1,10 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
-using UnityEngine.PlayerLoop;
-using System.Net.Http.Headers;
 
 public class UI : MonoBehaviour
 {
@@ -18,11 +15,14 @@ public class UI : MonoBehaviour
     public static UI instance;
     private float result, firstNumber, secondNumber;
     private string operacionText, operacion;
-    [SerializeField] private ParticleSystem particle;
+    private GameManager gameManager;
     private string[] abreviationUnits = new string[] {"km","hm","dam","m","dm","cm","mm"};
     private float timeToResetText= 4.0f;
 
-   
+   public void Start()
+    {
+        gameManager = FindObjectOfType<GameManager>();
+    }
     void Awake ()
     {
         instance = this;
@@ -85,19 +85,20 @@ public class UI : MonoBehaviour
     public void SetContElementsText (Objects objects)
     {
         cantTotalElements = Random.Range(objects.elementsMin, objects.elementsMax + 1);
+        operacion = objects.operacion.ToString();
 
         if(objects.items_2.ToString() == "Ninguno" && objects.operacion.ToString() == "Ninguno")
         {
-            problemText.text = "Cuenta cuantas " + objects.items_1.ToString() + " hay";
-            ObjectsController.instance.generadorObjetos(objects.items_1, cantTotalElements); 
+            problemText.text = "Cuenta las " + objects.items_1.ToString();
+            ObjectsController.instance.GenerarObjetos(objects.items_1, cantTotalElements); 
         }
+        
         if(objects.items_2.ToString() != "Ninguno" && objects.operacion.ToString() == "Adicion")
         {
             SetAddElementsText(objects);
         }
-        if(objects.operacion.ToString() == "Sustracción")
+        if(objects.items_2.ToString() == "Ninguno" && objects.operacion.ToString() == "Sustraccion")
         {
-            operacion = objects.operacion.ToString();
             SetSustracElementsText(objects);
         }
     }
@@ -106,9 +107,8 @@ public class UI : MonoBehaviour
         int cantItems1 = cantTotalElements/2;
         int cantItems2 = cantTotalElements - cantItems1;
         problemText.text = "Consigue " + cantItems1 + " " + objects.items_1.ToString() + " y " + cantItems2 + " " + objects.items_2.ToString();
-       
-        ObjectsController.instance.generadorObjetos(objects.items_1, cantItems1);     
-        ObjectsController.instance.generadorObjetos(objects.items_2, cantItems2);     
+        ObjectsController.instance.GenerarObjetos(objects.items_1, cantItems1);     
+        ObjectsController.instance.GenerarObjetos(objects.items_2, cantItems2);     
 
     }
     public void SetSustracElementsText (Objects objects)
@@ -117,54 +117,38 @@ public class UI : MonoBehaviour
         problemText.text = "Tengo " + cantTotalElements + " " + objects.items_1.ToString() + " y le quito " + cantItems +" cuantas me quedan";
         resultadoSustraccion = cantTotalElements - cantItems;
         cont = cantTotalElements - 1;
-        ObjectsController.instance.generadorObjetos(objects.items_1, cantItems);    
+        ObjectsController.instance.GenerarObjetos(objects.items_1, cantItems);    
     } 
     
     public void SetContador()
     {
         cont++;
+          
         contadorNumeros.text = cont.ToString();
-
-        if(cont == cantTotalElements)
+        if(cont >= cantTotalElements)
         {
-            cont=0;
-            contadorNumeros.text = "";
-            SetEndText(true,"Muy Bien!!");
-            GameManager.instance.Win();
+            GameManager.instance.CorrectAnswer();
         }
-
     }
 
     public void SetContadorSustracction()
     {
+        if (cont < 0) return;
         contadorNumeros.text = cont.ToString();
 
         if(cont == resultadoSustraccion)
         {
-            SetEndText(true,"Muy Bien!!");
-            GameManager.instance.Win();
+            ResetContador();
+            GameManager.instance.CorrectAnswer();
+            GameManager.instance.completeSustraccion();
         }else{
             cont--;
         }
     }
-
-    public void SetEndText (bool win, string msj)
+    private void ResetContador()
     {
-        endText.gameObject.SetActive(true);
-
-        if(win)
-        {
-            particle.Play();
-            endText.text = msj;
-        }else{
-            endText.text = msj;
-        }
-        Invoke("ResetText", timeToResetText);
-
-    }
-    public void ResetText()
-    {
-        endText.enabled = false;
+        cont = 0;
+        contadorNumeros.text = "";
     }
 
     public void setOperacion(string operacion){
